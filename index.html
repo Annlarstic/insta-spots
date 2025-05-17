@@ -14,61 +14,92 @@
   </head>
   <body>
     <!-- HEADER -->
-    <header id="header">Spots</header>
+    <header id="header">
+      <img src="./assets/Spotlogo.png" alt="logo icon"/>
+      SPOTS</header>
 
     <main>
       <!-- PROFILE SECTION -->
-      <section id="profile">
-        <div?>Profile Details</div>
-        <!-- PRIMARY BUTTON -->
-        <button class="button button--primary">
-          <object
-            type="image/svg+xml"
-            data="/assets/plus-icon.svg"
-            class="button__icon--primary"
-          ></object>
-          <span>New Post</span>
-        </button>
 
-        <!-- SECONDARY BUTTON -->
-        <button class="button button--secondary">
-          <svg
-            width="16"
-            height="16"
-            viewBox="0 0 16 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <rect
-              x="13.0676"
-              y="4.5451"
-              width="11.6506"
-              height="3.21396"
-              transform="rotate(135 13.0676 4.5451)"
-              fill="currentColor"
-            />
-            <path
-              d="M14.2036 1.13628C14.8312 1.76384 14.8312 2.78132 14.2036 3.40889L13.6354 3.97704L11.3628 1.70443L11.931 1.13628C12.5586 0.508714 13.576 0.508714 14.2036 1.13628Z"
-              fill="currentColor"
-            />
-            <path
-              d="M1.54021 13.1538L2.55674 10.5108L4.82935 12.7834L2.18637 13.8C1.782 13.9555 1.38468 13.5582 1.54021 13.1538Z"
-              fill="currentColor"
-            />
-          </svg>
-          <span>Edit Profile</span>
-        </button>
+      <section id="profile">
+        <div class="left">
+          <img src="./assets/Avatar.png" alt="profile picture" />
+          <div class="details">
+            <h1>Bessie Coleman</h1>
+            <p>Civil Aviator</p>
+            <button id="secondary" class="button button--secondary">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  x="13.0676"
+                  y="4.5451"
+                  width="11.6506"
+                  height="3.21396"
+                  transform="rotate(135 13.0676 4.5451)"
+                  fill="currentColor"
+                />
+                <path
+                  d="M14.2036 1.13628C14.8312 1.76384 14.8312 2.78132 14.2036 3.40889L13.6354 3.97704L11.3628 1.70443L11.931 1.13628C12.5586 0.508714 13.576 0.508714 14.2036 1.13628Z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M1.54021 13.1538L2.55674 10.5108L4.82935 12.7834L2.18637 13.8C1.782 13.9555 1.38468 13.5582 1.54021 13.1538Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span>Edit Profile</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- PRIMARY BUTTON -->
+        <div class="right">
+          <button class="button button--primary">
+            <object
+              type="image/svg+xml"
+              data="/assets/plus-icon.svg"
+              class="button__icon--primary"
+            ></object>
+            <span>New Post</span>
+          </button>
+        </div>
       </section>
 
-      <hr />
+      <hr class="divider-1" />
 
       <!-- PHOTOS SECTION -->
-      <section id="photos">Photos Section</section>
+      <section id="photos">
+        <div class="images">
+      <div class="image"><img src="./assets/Insta-spots/pexels-kassandre-pedro-8639743 1.png">
+        <div class="favourite">val Thorens <span><img class="love" src="./assets/Insta-spots/Union.svg"></span>
+        </div>
+        </div>
+      <div class="image"><img src="./assets/Insta-spots/pexels-kassandre-pedro-8639743 1-1.png">
+      <div class="favourite">Resturant terrace <span><img src="./assets/Insta-spots/Union.svg"></span>
+      </div>
+      </div>
+      
+      <div class="image"><img src="./assets/Insta-spots/pexels-kassandre-pedro-8639743 1-2.png">
+      <div class="favourite">An outdoor cafe <span><img src="./assets/Insta-spots/Union.svg"></span>
+      </div>
+      </div>
+      </div>
+      </section>
     </main>
 
-    <hr />
+    <!-- <hr /> -->
 
     <!-- FOOTER SECTION -->
-    <footer id="footer">Footer</footer>
+      <footer class="footer">
+          <link rel="stylesheet" href="footer.css">
+          <div class="footer-container">
+            <p>2023 © Spots</p>
+          </div>
+        </footer>
   </body>
 </html>
